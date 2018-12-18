@@ -9,5 +9,5 @@ app.get('/', function (req, res) {
 });
 
 app.listen(port, function () {
-    console.log('Running on PORT: ' + port);
+    console.log('Gulp is running my app on Port: ' + port);
 });
