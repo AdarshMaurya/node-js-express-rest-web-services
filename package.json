@@ -1,0 +1,22 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "Node.js is a simple and powerful tool for backend development. When combined with express, you can create lightweight, fast, scalable APIs quickly and simply. In this course, we will walk through how to stand up a lightweight Express server serving truly RESTful services using Node.js, Mongoose, and MongoDB. We will implement all of the RESTful verbs to get, add, and update data from our service. We will also spend some time working through unit and end to end integration tests for our services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdarshMaurya/node-js-express-rest-web-services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdarshMaurya/node-js-express-rest-web-services/issues"
+  },
+  "homepage": "https://github.com/AdarshMaurya/node-js-express-rest-web-services#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
