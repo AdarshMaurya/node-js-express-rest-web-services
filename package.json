@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AdarshMaurya/node-js-express-rest-web-services#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "gulp": "^4.0.0"
   }
 }
