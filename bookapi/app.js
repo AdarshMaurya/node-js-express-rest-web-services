@@ -14,8 +14,11 @@ var bookRouter = express.Router();
 
 bookRouter.route('/Books')
     .get(function (req, res) {
-        var query = req.query;
-
+        var query = {};
+        
+        if (req.query.genre) {
+            query.genre = req.query.genre;
+        }
         Book.find(query, function (err, books) {
             if (err)
                 res.status(500).send(err);
